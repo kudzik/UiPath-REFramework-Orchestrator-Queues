@@ -125,7 +125,7 @@
         </InArgument>
       </ui:LogMessage.Message>
     </ui:LogMessage>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: UIDemo" sap:VirtualizedContainerService.HintSize="484,1534" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="273045fc-2946-4860-ade5-6c72d688f313" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: UIDemo" sap:VirtualizedContainerService.HintSize="484,1534" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="273045fc-2946-4860-ade5-6c72d688f313" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -137,7 +137,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Cash In'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="273045fc-2946-4860-ade5-6c72d688f313" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Cash In'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="273045fc-2946-4860-ade5-6c72d688f313" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable CvType="InputBox" DesignTimeRectangle="333, 169, 120, 23" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'editable text cashintb'" FullSelectorArgument="&lt;ctrl automationid='cashintb' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='cashintb' role='editable text' /&gt;" Guid="f129b154-b8e7-496d-b7c7-edb7e0fed97b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHwAAAAbCAYAAAC+7+tcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABoSURBVGhD7dExDYBQFMBA/FshTPh6FmBjAQz8XpMquG1mLncGHvsB34/TC/8JrjUDHgt4LOCxgMcCHgt4LOCxgMcCHgt4LOCxgMcCHgt4LOCxgMcCHgt4LOCxgMf6Bfe6v8DdGHjquW7wzJ7nzWnF2AAAAABJRU5ErkJggg==" InformativeScreenshot="fd36643fa63b609d3a0fad06bc04f0e9.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='uidemo.exe' cls='HwndWrapper*' title='UIDemo' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -153,7 +153,7 @@
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'On Us Check'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="273045fc-2946-4860-ade5-6c72d688f313" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'On Us Check'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="273045fc-2946-4860-ade5-6c72d688f313" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable CvType="InputBox" DesignTimeRectangle="333, 208, 120, 23" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'editable text onustb'" FullSelectorArgument="&lt;ctrl automationid='onustb' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='onustb' role='editable text' /&gt;" Guid="5b989d3a-2c8b-40da-9491-a1226a4e3dff" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHwAAAAbCAYAAAC+7+tcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABoSURBVGhD7dExDYBQFMBA/FshTPh6FmBjAQz8XpMquG1mLncGHvsB34/TC/8JrjUDHgt4LOCxgMcCHgt4LOCxgMcCHgt4LOCxgMcCHgt4LOCxgMcCHgt4LOCxgMf6Bfe6v8DdGHjquW7wzJ7nzWnF2AAAAABJRU5ErkJggg==" InformativeScreenshot="f9ed0c0db69c2c3899a1d449142b7b24.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='uidemo.exe' cls='HwndWrapper*' title='UIDemo' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -169,7 +169,7 @@
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Not On Us Check'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="273045fc-2946-4860-ade5-6c72d688f313" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Not On Us Check'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,218" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="273045fc-2946-4860-ade5-6c72d688f313" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable CvType="InputBox" DesignTimeRectangle="333, 247, 120, 23" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'editable text notonustb'" FullSelectorArgument="&lt;ctrl automationid='notonustb' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='notonustb' role='editable text' /&gt;" Guid="8924d477-5b7f-4513-b970-d98cfaf129f1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHwAAAAbCAYAAAC+7+tcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABoSURBVGhD7dExDYBQFMBA/FshTPh6FmBjAQz8XpMquG1mLncGHvsB34/TC/8JrjUDHgt4LOCxgMcCHgt4LOCxgMcCHgt4LOCxgMcCHgt4LOCxgMcCHgt4LOCxgMf6Bfe6v8DdGHjquW7wzJ7nzWnF2AAAAABJRU5ErkJggg==" InformativeScreenshot="d0bfaebfee9e28c0f65ec68787e79aec.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='uidemo.exe' cls='HwndWrapper*' title='UIDemo' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
